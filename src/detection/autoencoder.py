@@ -37,7 +37,7 @@ def autoencoder(file_path):
     X_train_scaled = (X_train - X_train.min()) / (X_train.max() - X_train.min())
     X_train_scaled = X_train_scaled.values.astype("float32")
 
-    # train model — input = output (autoencoder trick)
+    # train model - input = output (autoencoder trick)
     model = Autoencoder()
     model.compile(optimizer="adam", loss="mse")
     model.fit(X_train_scaled, X_train_scaled, epochs=20, batch_size=32, verbose=0)
