@@ -1,3 +1,34 @@
+sector_etfs:
+  Technology: "XLK"
+  Financials: "XLF"
+  Healthcare: "XLV"
+  Consumer Staples: "XLP"
+  Energy: "XLE"
+  Consumer Discretionary: "XLY"
+  Industrials: "XLI"
+  Green Energy: "ICLN"
+
+references:
+  - ticker: "^VIX"
+    name: "Volatility Index"
+  - ticker: "XLK"
+    name: "Technology ETF"
+  - ticker: "XLF"
+    name: "Financials ETF"
+  - ticker: "XLV"
+    name: "Healthcare ETF"
+  - ticker: "XLP"
+    name: "Consumer Staples ETF"
+  - ticker: "XLE"
+    name: "Energy ETF"
+  - ticker: "XLY"
+    name: "Consumer Discretionary ETF"
+  - ticker: "XLI"
+    name: "Industrials ETF"
+  - ticker: "ICLN"
+    name: "Clean Energy ETF"
+
+
 assets: 
   - ticker: "^SPX"
     name: "S&P 500"
@@ -42,3 +73,10 @@ assets:
   - ticker: "KO"
     name: "Coca-Cola"
     sector: "Consumer Staples"
+
+  - ticker: "BE"
+    name: "Bloom Energy"
+    sector: "Green Energy"
+
+
+
